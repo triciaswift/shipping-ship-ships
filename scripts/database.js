@@ -5,8 +5,17 @@ const database = {
     { id: 3, location: "Rotterdam, The Netherlands", volume: "14.35" },
     { id: 4, location: "Antwerp, Belgium", volume: "12.04" },
   ],
+  haulers: [
+    { id: 1, name: "Pioneering Spirit" },
+    { id: 2, name: "Boaty McBoatFace" },
+    { id: 3, name: "Seawise Giant" },
+  ],
 };
 
 export const getDocks = () => {
   return database.docks.map((dock) => ({ ...dock }));
+};
+
+export const getHaulers = () => {
+  return database.haulers.map((hauler) => ({ ...hauler }));
 };
