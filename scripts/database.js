@@ -10,6 +10,18 @@ const database = {
     { id: 2, name: "Boaty McBoatFace" },
     { id: 3, name: "Seawise Giant" },
   ],
+  shippingShips: [
+    { id: 1, name: "Esso Atlantic" },
+    { id: 2, name: "Prairial" },
+    { id: 3, name: "Palais Royal" },
+    { id: 4, name: "Rivoli" },
+    { id: 5, name: "Champs Elysee" },
+    { id: 6, name: "Ever Ace" },
+    { id: 7, name: "Nissei Maru" },
+    { id: 8, name: "MSC Gulsun" },
+    { id: 9, name: "HMM Rotterdam" },
+    { id: 10, name: "CMA CGM Trocadero" },
+  ],
 };
 
 export const getDocks = () => {
@@ -18,4 +30,8 @@ export const getDocks = () => {
 
 export const getHaulers = () => {
   return database.haulers.map((hauler) => ({ ...hauler }));
+};
+
+export const getShippingShips = () => {
+  return database.shippingShips.map((ship) => ({ ...ship }));
 };

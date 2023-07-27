@@ -1,0 +1,23 @@
+.details {
+  display: flex;
+  flex-direction: column;
+  width: 75%;
+}
+
+.detail--column {
+  padding: 0 10px 20px 10px;
+  margin: 0 35px 20px 35px;
+  border: 1.5px dotted #ecf4fe;
+}
+
+.list--style {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.list--background {
+  background-color: #e0f7fc;
+  margin: 5px;
+  padding: 3px;
+}
