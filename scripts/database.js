@@ -6,9 +6,9 @@ const database = {
     { id: 4, location: "Antwerp, Belgium", volume: "12.04" },
   ],
   haulers: [
-    { id: 1, name: "Pioneering Spirit" },
-    { id: 2, name: "Boaty McBoatFace" },
-    { id: 3, name: "Seawise Giant" },
+    { id: 1, name: "Pioneering Spirit", dockId: 3 },
+    { id: 2, name: "Boaty McBoatFace", dockId: 4 },
+    { id: 3, name: "Seawise Giant", dockId: 4 },
   ],
   shippingShips: [
     { id: 1, name: "Esso Atlantic", haulerId: 3 },
