@@ -19,7 +19,7 @@ const database = {
     { id: 6, name: "Ever Ace", haulerId: 3 },
     { id: 7, name: "Nissei Maru", haulerId: 1 },
     { id: 8, name: "MSC Gulsun", haulerId: 2 },
-    { id: 9, name: "HMM Rotterdam", haulerId: 3 },
+    { id: 9, name: "HMM Rotterdam", haulerId: 2 },
     { id: 10, name: "CMA CGM Trocadero", haulerId: 1 },
   ],
 };
